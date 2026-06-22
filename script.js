@@ -138,7 +138,7 @@ function handleInput(val) {
                 res: result,
                 time: new Date().toLocaleString()
             });
-            console.log("डेटाबेस में सेव हो गया!");
+            console.log("Data is submitted to Database");
         } catch { 
             display.value = 'Error'; 
         } 
@@ -162,6 +162,6 @@ window.lockName = function() {
         nameInput.disabled = true;
         document.getElementById('submitName').disabled = true;
     } else {
-        alert("कृपया अपना नाम लिखें!");
+        alert("Please Enter Your Name");
     }
 };
